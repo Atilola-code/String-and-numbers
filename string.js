@@ -21,7 +21,7 @@ console.log("Replace TEST with practice:", replace)
 // split method splits the string into an array of substrings.
 
 const countS = text.split("s").length - 1
-console.log("Count of s in the string:", countS)
+console.log("Count the number of s in the string:", countS)
 
 //endsWith method
 // endsWith method is used to check if the string ends with a specific substring.
@@ -50,7 +50,7 @@ console.log("Replace numbers with empty string:", replaceNumbers)
 //capitalize method
 // capitalize method capitalizes the first character of a string.
 
-const capitalizeFirstLetter = text.charAt(0).toUpperCase() + text.slice(1)
+const capitalizeFirstLetter = text.replace(text.charAt(2), text.charAt(2).toUpperCase())
 console.log("Capitalize the first character:", capitalizeFirstLetter)
 
 //includes method
